@@ -1,0 +1,95 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-button: #fff;
+    --color-button-border: #d4c9c9;
+    --color-time: #514c4ce6;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    margin: auto;
+    margin-top: 50px;
+    gap: 12px;
+}
+
+.card-color-palette{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-color-palette-1{
+    display: flex;
+    width: 100%;
+    height: 167px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-color-palette-2{
+    display: flex;
+    width: 100%;
+    height: 106px;
+}
+
+.card-color-palette-3{
+    display: flex;
+    width: 100%;
+    height: 74px;
+}
+
+.card-color-palette-4{
+    display: flex;
+    width: 100%;
+    height: 61px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-color-palette-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card-color-palette-info-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.info-icon-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-button);
+    border: 1px solid var(--color-button-border);
+    gap: 10px;
+}
+
+.info-icon-button a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.info-time{
+    color: var(--color-time);
+    font-size: 12px;
+}
