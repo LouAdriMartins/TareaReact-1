@@ -9,11 +9,16 @@ function CardColorPalette(properties) {
         <div className="card-container">
             <div className="card-color-palette">
                 {properties.colors.map((color, index) => (
-                <div
-                    key={index}
-                    className={`card-color-palette-${index + 1}`}
-                    style={{ backgroundColor: color }}
-                />
+                    <div
+                        key={index}
+                        className={`card-color-palette-content card-color-palette-${index + 1}`}
+                        style={{ backgroundColor: color }}
+                    >
+                        <span 
+                            className="card-color-palette-hover">
+                            {color}
+                        </span>
+                    </div>
                 ))}
             </div>
             <div className="card-color-palette-info">
