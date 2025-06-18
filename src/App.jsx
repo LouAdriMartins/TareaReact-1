@@ -2,7 +2,7 @@ import React from "react"
 import CardColorPalette from "./Components/CardColorPalette/CardColorPalette"
 
 function App() {
-  
+  const colores = ['#3674B5', '#578FCA', '#F5F0CD', '#FADA7A'];
   return (
     <div>
       <CardColorPalette 
